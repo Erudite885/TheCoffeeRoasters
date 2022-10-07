@@ -19,14 +19,14 @@ const Hero = () => (
     <div className=" z-20 absolute bottom-[15%] sm:bottom-[40%] left-0 right-0 ">
       <div className="sm:block hidden">
         <div className="flex justify-center items-center">
-          <h1 className="font-poppins font-bold capitalize text-white mb-5 text-[3.2rem]">
+          <h1 className="font-poppins font-bold capitalize text-white mb-5 text-[3rem]">
             The coffee roasters
           </h1>
         </div>
       </div>
 
       <div className="flex flex-col sm:flex-row sm:ml-3 justify-center items-center ">
-        <div className="mb-5  w-[80px] h-[80px] flex justify-center items-center rounded-full bg-stone-100/60">
+        <div className="mb-5 sm:mb-0  w-[80px] h-[80px] flex justify-center items-center rounded-full bg-stone-100/60">
           <img
             src={roundlogo}
             alt="shop logo"
@@ -34,11 +34,8 @@ const Hero = () => (
           />
         </div>
         <div className="flex flex-col ss:hidden items-center">
-          <h1 className="capitalize font-poppins font-bold text-[2rem] -mb-12 text-white">
-            the
-          </h1>
-          <h2 className="font-poppins font-bold capitalize text-white mb-5 text-[2rem]">
-            <br className="sm:hidden block" /> coffee roasters
+          <h2 className="font-poppins font-bold capitalize text-white mb-5 text-[1.8rem]">
+            the coffee roasters
           </h2>
         </div>
         <div className="bg-yellow-900/80 sm:ml-3 px-5 py-5 rounded-[6px] max-w-[400px]">
@@ -51,7 +48,7 @@ const Hero = () => (
         </div>
       </div>
 
-      <div id="features" className=" relative top-20 justify-center items-center flex ">
+      <div id="features" className=" relative sm:top-20 sm:flex hidden justify-center items-center flex ">
         <a href="#features" className="cursor-pointer">
           <Button />
         </a>
