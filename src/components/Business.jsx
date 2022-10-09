@@ -30,11 +30,14 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () => {
   return (
     <>
-      <div className="w-full flex justify-between items-center md:flex-row flex-col md:mb-10 mb-4 relative z-[1]">
+      <div
+        id="features"
+        className="w-full flex justify-between items-center md:flex-row flex-col md:mb-10 mb-4 relative z-[1]"
+      >
         <h1 className={styles.heading2}>What we Offer</h1>
       </div>
 
-      <section id="features" className={`${layout.section} mt-10`}>
+      <section className={`${layout.section} mt-10`}>
         <div className={`${layout.sectionImg} flex-col`}>
           {features.map((feature, index) => (
             <FeatureCard key={feature.id} {...feature} index={index} />

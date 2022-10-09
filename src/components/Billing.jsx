@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { features, featuresFour, featuresThree, featuresTwo } from "../constants";
-import { barista2, beans } from '../assets'
+// import { barista2, beans } from '../assets'
 import styles, { layout } from '../style'
 
 const FeatureCard = ({ icon, title, content, index }) => (
@@ -28,11 +28,16 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Billing = () => (
   <>
-    <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-0 relative z-[1]">
+    <div
+      id="product"
+      className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-0 relative z-[1]"
+    >
       <h1 className={styles.heading2}>Our Menu</h1>
     </div>
 
-    <section id="product" className={`${layout.section} bg-stone-800 rounded-[20px] md:rounded-[16px] relative mt-0 mb-10`}>
+    <section
+      className={`${layout.section} bg-stone-800 rounded-[20px] md:rounded-[16px] relative mt-0 mb-10`}
+    >
       <div className={layout.sectionImg}>
         <div className={`${layout.sectionImgReverse} flex-col`}>
           {featuresThree.map((feature, index) => (
