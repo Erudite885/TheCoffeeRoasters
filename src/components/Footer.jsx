@@ -10,7 +10,7 @@ const Footer = () =>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className='flex-1 flex flex-col justify-start mr-10'>
         <img src={hotCoffee} alt="The coffee Roasters logo" className='w-[266px] h-[72px] object-contain' />
-        <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>Not just a drop-in get coffee service, but a new way to Sit, Relax and enjoy that tailor-made cup of coffee.</p>
+        <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>Not just a drop-in get coffee service, but a new way to Sit, Relax and enjoy that tailor-made cup of coffee in a new way.</p>
       </div>
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
