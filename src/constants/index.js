@@ -1,5 +1,5 @@
 
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, cupCafe, cupCafe2, star, bicycle, veganTea, disable, takeAway, petFriendly, drivethru } from "../assets";
 
 export const navLinks = [
     {
@@ -18,24 +18,100 @@ export const navLinks = [
 ];
 
 export const features = [
-    {
-        id: "feature-1",
-        icon: star,
-        title: "Rewards",
-        content: "The best credit cards offer some tantalizing combinations of promotions and prices."
-    },
-    {
-        id: "feature-2",
-        icon: shield,
-        title: "100% Secured",
-        content: "We take proactive steps make sure your information and transactions are secure."
-    },
-    {
-        id: "feature-3",
-        icon: send,
-        title: "Balance Transfer",
-        content: "A balance transfer credit card can save you a lot of money in interest charges."
-    },
+  {
+    id: "feature-1",
+    icon: star,
+    title: "INDOOR SITING",
+    content:
+      "The best credit cards offer some tantalizing combinations of promotions and prices.",
+  },
+  {
+    id: "feature-2",
+    icon: petFriendly,
+    title: "PET FRIENDLY",
+    content:
+      "We take proactive steps make sure your information and transactions are secure.",
+  },
+  {
+    id: "feature-3",
+    icon: takeAway,
+    title: "TAKE AWAY",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  
+];
+
+export const featuresTwo = [
+  {
+    id: "feature-4",
+    icon: disable,
+    title: "WHEELCHAIR ACCESSIBLE",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-5",
+    icon: veganTea,
+    title: "VEGAN OPTIONS",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "feature-6",
+    icon: bicycle,
+    title: "CYCLIST FRIENDLY",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+];
+
+export const featuresThree = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "CAPAUCCIN0",
+    content:
+      "For the old souls.",
+  },
+  {
+    id: "feature-2",
+    icon: cupCafe,
+    title: "MOCCA",
+    content:
+      "Energy fast when you've got to deliver.",
+  },
+  {
+    id: "feature-3",
+    icon: cupCafe2,
+    title: "LATTE",
+    content:
+      "Taste you can't resist.",
+  },
+];
+
+export const featuresFour = [
+  {
+    id: "feature-4",
+    icon: drivethru,
+    title: "DRIVE THRU",
+    content:
+      "Anyway you want it, that's the way we make it",
+  },
+  {
+    id: "feature-5",
+    icon: veganTea,
+    title: "VEGAN OPTIONS",
+    content:
+      "We've got you covered.",
+  },
+  {
+    id: "feature-6",
+    icon: takeAway,
+    title: "TAKE-AWAY",
+    content:
+      "Convience at its best.",
+  },
 ];
 
 export const feedback = [
@@ -83,6 +159,7 @@ export const stats = [
 
 export const footerLinks = [
   {
+    key: 1,
     title: "Useful Links",
     links: [
       {
@@ -108,6 +185,7 @@ export const footerLinks = [
     ],
   },
   {
+    key:2,
     title: "Community",
     links: [
       {
@@ -133,6 +211,7 @@ export const footerLinks = [
     ],
   },
   {
+    key: 3,
     title: "Partner",
     links: [
       {
