@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from "../style";
-import { arrowUp } from "../assets";
+// import { arrowUp } from "../assets";
 // import Button from "./Button";
 
 const CTA = () => (
   <section
-    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-gradient-to-r from-amber-900 to-black  rounded-[20px] box-shadow`}
+    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-gradient-to-b from-amber-900 to-black rounded-[20px] box-shadow`}
   >
     <div className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>Looking for a fresh cup of coffee?</h2>
