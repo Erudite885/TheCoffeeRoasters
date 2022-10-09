@@ -39,25 +39,30 @@ export const features = [
 ];
 
 export const feedback = [
-    {
-        id: "feedback-1",
-        content:"Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-        name: "Herman Jensen",
-        title: "Founder & Leader",
-        img: people01,
-    }, {
-        id: "feedback-2",
-        content:"Money makes your life easier. If you're lucky to have it, you're lucky.",
-        name: "Steve Mark",
-        title: "Founder & Leader",
-        img: people02,
-    }, {
-        id: "feedback-3",
-        content:"Its usually people in the money business, finance, and international trade that are really rich.",
-        name: "Kenn Gallagher",
-        title: "Founder & Leader",
-        img: people03,
-    },
+  {
+    id: "feedback-1",
+    content:
+      "Always fast, very friendly service and a great place to hangout or just to take a little break.",
+    name: "Jensen, Herman",
+    // title: "Founder & Leader",
+    img: people01,
+  },
+  {
+    id: "feedback-2",
+    content:
+      "Such an amazing cafe joint for family gatherings, friends gatherings, any type of fun social gathering!! The staff are super nice. Such a 5 out of 5 location.",
+    name: "Mark, Hyuthinity",
+    // title: "Founder & Leader",
+    img: people02,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "Its all great at The Coffee Roasters. Great atmosphere. Great people. Great Service. Great fare.",
+    name: "Newton, Kenn",
+    // title: "Founder & Leader",
+    img: people03,
+  },
 ];
 
 export const stats = [
@@ -82,23 +87,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "https://www.thecoffeeroasters.com/content/",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://www.thecoffeeroasters.com/how-it-works/",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "https://www.thecoffeeroasters.com/create/",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://www.thecoffeeroasters.com/explore/",
       },
       {
         name: "Terms & Service",
-        link: "https://www.hoobank.com/terms-and-Service/",
+        link: "https://www.thecoffeeroasters.com/terms-and-Service/",
       },
     ],
   },
@@ -107,23 +112,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://www.thecoffeeroasters.com/help-center/",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://www.thecoffeeroasters.com/partners/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://www.thecoffeeroasters.com/suggestions/",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://www.thecoffeeroasters.com/blog/",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://www.thecoffeeroasters.com/newsletters/",
       },
     ],
   },
@@ -132,11 +137,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.thecoffeeroasters.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://www.thecoffeeroasters.com/become-a-partner/",
       },
     ],
   },
