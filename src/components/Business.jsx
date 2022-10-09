@@ -1,8 +1,9 @@
 import React from 'react'
+import { blackCoffee } from '../assets';
 
-import { features } from '../constants'
+import { features, featuresTwo } from '../constants'
 import styles, {layout} from '../style'
-import Button from './Button'
+// import Button from './Button'
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -11,7 +12,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     } feature-card`}
   >
     <div
-      className={`w-[64px] h-[64px] rounded-full bg-dimBlue ${styles.flexCenter}`}
+      className={`w-[64px] h-[64px] rounded-full bg-dimAmber ${styles.flexCenter}`}
     >
       <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
     </div>
@@ -28,20 +29,31 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business = () => {
   return (
-    <section id='features' className={layout.section}>
-      <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>You do the business, <br className="sm:block hidden" /> we'll handle the money.</h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But eith hundreds of credit cards on the market.</p>
-        <Button styles="mt-10 " />
+    <>
+      <div className="w-full flex justify-between items-center md:flex-row flex-col md:mb-10 mb-4 relative z-[1]">
+        <h1 className={styles.heading2}>What we Offer</h1>
       </div>
 
-      <div className={`${layout.sectionImg} flex-col`}>
-        {features.map((feature, index) => (
-          <FeatureCard key={feature.id} {...feature} index={index} />
-        ))}
-      </div>
-    </section>
-  )
+      <section id="features" className={`${layout.section} mt-10`}>
+        <div className={`${layout.sectionImg} flex-col`}>
+          {features.map((feature, index) => (
+            <FeatureCard key={feature.id} {...feature} index={index} />
+          ))}
+        </div>
+
+        <div className={layout.sectionImg}>
+          <img src={blackCoffee} alt="black coffee" className="max-w-[400px]" />
+          {/* <Button styles="mt-10 " /> */}
+        </div>
+
+        <div className={`${layout.sectionImg} flex-col`}>
+          {featuresTwo.map((feature, index) => (
+            <FeatureCard key={feature.id} {...feature} index={index} />
+          ))}
+        </div>
+      </section>
+    </>
+  );
 }
 
 export default Business
