@@ -28,9 +28,26 @@ import barista from "./cafeBarista.jpg";
 import barista2 from "./cafeBarista2.jpg";
 import businesscafe from "./businessCafe.jpg";
 import roundlogo from "./coffeeShopText.png";
-import blackCoffee from "./bg-black-coffee.png"
+import blackCoffee from "./bg-black-coffee.png";
+import veganTea from "./herbal-tea.png";
+import petFriendly from "./pet.png";
+import takeAway from "./take-away.png";
+import bicycle from "./bicycle.png";
+import disable from "./disable.png";
+import beans from "./cafe-beans.jpg";
+import cupCafe from "./cupCafe.jpg";
+import cupCafe2 from "./cupCafe2.jpg";
+import drivethru from "./drive-thru.png";
+// import takeAway from "./takeAway.png";
 
 export {
+  cupCafe, cupCafe2, drivethru,
+  beans,
+  disable,
+  bicycle,
+  takeAway,
+  petFriendly,
+  veganTea,
   blackCoffee,
   roundlogo,
   businesscafe,
