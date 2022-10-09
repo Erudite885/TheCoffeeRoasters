@@ -41,9 +41,9 @@ const Hero = () => (
         <div className="bg-yellow-900/80 sm:ml-3 px-5 py-5 rounded-[6px] max-w-[400px]">
           <p className="font-poppins text-center font-normal text-white leading-[32px] text-[23px]">
             We source our coffee seasonally,
-            <br className="sm:hidden " /> from farmers who care,
-            <br className="sm:hidden " /> and roast to highlight
-            <br className="sm:hidden " /> what makes them special.
+            <br className="sm:hidden block " /> from farmers who care,
+            <br className="sm:hidden block " /> and roast to highlight
+            <br className="sm:hidden block " /> what makes them special.
           </p>
         </div>
       </div>
